@@ -4,6 +4,25 @@ This is a [ROS2](http://ros.org) package for the [Aravis GigEVision
 library](http://live.gnome.org/Aravis). It is open source, under the
 LGPL (like Aravis itself).
 
+## Prerequisite
+Install Aravis (open source project), one of the drivers for GigE Vision.
+```
+$ sudo apt install aravis-tools
+```
+
+## Build
+```
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+
+## Run
+```
+$ ./camenode [VendorName]-[Serial]
+```
+
 ------------------------
 The basic command to run camera_aravis:
 
