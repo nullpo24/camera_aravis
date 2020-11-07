@@ -1,4 +1,4 @@
-ros2_aravis
+camera_aravis for ROS2
 
 This is a [ROS2](http://ros.org) package for the [Aravis GigEVision
 library](http://live.gnome.org/Aravis). It is open source, under the
